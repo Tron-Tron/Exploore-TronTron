@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: 0;
+}
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+img {
+  max-width: 100%;
+}
+a,
+img,
+span,
+::before,
+::after {
+  display: inline-block;
+}
+ul,
+li {
+  list-style-type: none;
+}
+
+body {
+  color: #555;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.285;
+  background-color: pink;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1860px;
+  margin: 0 auto;
+}
