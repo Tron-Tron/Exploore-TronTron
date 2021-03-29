@@ -5,36 +5,32 @@
   margin: 0 auto;
   text-align: center;
 }
-.main-title .sub-title {
+.main-title .title-wrapper {
   display: inline-block;
-  /* width: 100%;
-  padding: 0 17%; */
+  text-align: left;
   margin-bottom: 15px;
 }
-
 .main-title .description {
   text-align: center;
-  /* padding-left: 18px;
-  padding-right: 18px; */
   font-size: 18px;
   color: #5a5f68;
 }
-.main-title .text-title {
-  text-align: left;
+.main-title .sub-title {
   color: #737a83;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 .main-title .title {
   text-transform: uppercase;
+  margin-bottom: 15px;
   margin-top: 5px;
   font-weight: 700;
   font-size: 30px;
   color: #434a54;
 }
 
-.main-title .text-title::after {
+.main-title .sub-title::after {
   margin-left: 10px;
   margin-right: 3px;
   content: "";
@@ -46,6 +42,6 @@
   margin-left: -6px;
   color: #737a83;
 }
-.text-l {
-  text-align: left;
+.text-c {
+  text-align: center;
 }
