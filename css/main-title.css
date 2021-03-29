@@ -3,18 +3,19 @@
 .main-title {
   max-width: 630px;
   margin: 0 auto;
-  /* text-align: center; */
+  text-align: center;
 }
 .main-title .sub-title {
-  width: 100%;
-  padding: 0 17%;
+  display: inline-block;
+  /* width: 100%;
+  padding: 0 17%; */
   margin-bottom: 15px;
 }
 
 .main-title .description {
   text-align: center;
-  padding-left: 18px;
-  padding-right: 18px;
+  /* padding-left: 18px;
+  padding-right: 18px; */
   font-size: 18px;
   color: #5a5f68;
 }
