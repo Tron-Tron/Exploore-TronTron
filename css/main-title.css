@@ -3,21 +3,23 @@
 .main-title {
   max-width: 630px;
   margin: 0 auto;
-  text-align: center;
+  /* text-align: center; */
 }
 .main-title .sub-title {
-  text-align: left;
-  padding-left: 100px;
+  width: 100%;
+  padding: 0 17%;
   margin-bottom: 15px;
 }
+
 .main-title .description {
-  /* text-align: center; */
+  text-align: center;
   padding-left: 18px;
   padding-right: 18px;
   font-size: 18px;
   color: #5a5f68;
 }
 .main-title .text-title {
+  text-align: left;
   color: #737a83;
   text-transform: uppercase;
   display: inline-block;
@@ -32,7 +34,6 @@
 }
 
 .main-title .text-title::after {
-  /* position: absolute; */
   margin-left: 10px;
   margin-right: 3px;
   content: "";
@@ -43,4 +44,7 @@
 .icons:before {
   margin-left: -6px;
   color: #737a83;
+}
+.text-l {
+  text-align: left;
 }
