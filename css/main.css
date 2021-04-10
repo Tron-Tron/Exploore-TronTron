@@ -53,8 +53,8 @@ body {
 /* ============================ */
 
 [class*="flex-columns-"] {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   margin-left: -15px;
   margin-right: -15px;
 }

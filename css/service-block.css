@@ -1,11 +1,26 @@
 .service-block-list {
   width: 100%;
   height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 1%;
+  display: flex;
+  flex-wrap: wrap;
 }
-
+.service-block-list .sb-item:hover {
+  transition: 0.3s;
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px 0 rgb(0 0 0 / 15%);
+  background-color: #fafafa;
+}
 .service-block-list .sb-item {
   display: flex;
+  flex-wrap: nowrap;
   font-size: 0px;
+  height: 200px;
+  width: 50%;
+  margin-bottom: 30px;
+  padding-left: 30px;
 }
 .service-block-list .sb-image {
   background-color: #ffffff;
@@ -13,6 +28,8 @@
   z-index: 1;
   position: relative;
   text-align: center;
+  width: 41%;
+  overflow: hidden;
 }
 .service-block-list .sb-image::after {
   content: "";
@@ -21,26 +38,31 @@
   vertical-align: middle;
 }
 .service-block-list .sb-image img {
-  padding: 1% 15%;
+  padding: 0 15%;
   vertical-align: middle;
+}
+.service-block-list .sb-content {
+  background-color: #fafafa;
+  padding: 5px 15px;
+  width: 59%;
+  text-align: left;
+  overflow: hidden;
 }
 .service-block-list .sb-content .sb-title {
   color: #2c323a;
   font-family: "Roboto";
   font-size: 22px;
   font-weight: 500;
-  line-height: 24px;
+  /* line-height: 24px; */
   padding-top: 7%;
 }
 
-.service-block-list .sb-content {
-  background-color: #fafafa;
-  padding-left: 6.8%;
-}
 .service-block-list .sb-content .sb-description {
   color: #5a5f68;
   font-family: "Roboto";
   font-size: 15px;
   line-height: 22px;
   height: auto;
+  padding-top: 5px;
+  padding-right: 5%;
 }
